@@ -36,7 +36,7 @@ public class codigoReto {
 		}
 	
 		
-		}while(Funciones.=0);
+		}while(opcion==0);
 
 	}
 	}
