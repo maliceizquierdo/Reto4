@@ -10,7 +10,7 @@ public class codigoReto {
 
 	public static void main(String[] args) {
 	
-		// TODO Auto-generated method stub
+		// Esto es el main pero no funciona
 		Scanner sc = new Scanner(System.in);
 		int opcion=0;
 		do {
@@ -20,23 +20,23 @@ public class codigoReto {
 		System.out.println("3.Temperatura");
 		System.out.println("4.Volumen");
 		System.out.println("0.Salir");
-		opcion =.dimeEntero("Elige una opción", sc);
+		opcion =Funciones.opcion("Elige una opción", sc);
 		
 		switch(opcion) {
 		case 1:
-			Funciones.menuLongitud();
+			Funciones.menuLongitud();//menu lonmgitud
 			break;
 		case 2:
-			Funciones.menuPeso();
+			Funciones.menuPeso(); //menu peso
 		case 3:
-			Funciones.menuTemperatura();
+			Funciones.menuTemperatura();// menu Temperatura
 			
 		case 4:
 			Funciones.menuVolumen();
 		}
 	
 		
-		}while(opcion==0);
+		}while(Funciones.opcion==0);
 
 	}
 	}
